@@ -47,6 +47,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetY,
 		C3.Plugins.Sprite.Exps.Height,
 		C3.Plugins.Sprite.Cnds.CompareY,
+		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Plugins.System.Acts.SetLayerVisible
 	];
 };
