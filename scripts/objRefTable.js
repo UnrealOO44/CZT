@@ -47,7 +47,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetY,
 		C3.Plugins.Sprite.Exps.Height,
 		C3.Plugins.Sprite.Cnds.CompareY,
-		C3.Plugins.Text.Cnds.CompareText,
 		C3.Plugins.System.Acts.SetLayerVisible
 	];
 };
@@ -80,7 +79,6 @@ self.C3_JsPropNameTable = [
 	{Clickme: 0},
 	{Group: 0},
 	{Button_11: 0},
-	{Text_11: 0},
 	{Button_21: 0},
 	{Button_22: 0},
 	{Text_21: 0},
@@ -91,7 +89,8 @@ self.C3_JsPropNameTable = [
 	{Text_31: 0},
 	{Text_32: 0},
 	{Text_33: 0},
-	{Apartment: 0}
+	{Apartment: 0},
+	{Text_11: 0}
 ];
 
 self.InstanceType = {
@@ -113,7 +112,6 @@ self.InstanceType = {
 	Transition: class extends self.ISpriteInstance {},
 	Clickme: class extends self.ISpriteInstance {},
 	Button_11: class extends self.ISpriteInstance {},
-	Text_11: class extends self.ITextInstance {},
 	Button_21: class extends self.ISpriteInstance {},
 	Button_22: class extends self.ISpriteInstance {},
 	Text_21: class extends self.ITextInstance {},
@@ -124,5 +122,6 @@ self.InstanceType = {
 	Text_31: class extends self.ITextInstance {},
 	Text_32: class extends self.ITextInstance {},
 	Text_33: class extends self.ITextInstance {},
-	Apartment: class extends self.ISpriteInstance {}
+	Apartment: class extends self.ISpriteInstance {},
+	Text_11: class extends self.ISpriteInstance {}
 }
