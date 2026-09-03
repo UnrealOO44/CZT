@@ -1424,6 +1424,10 @@ self.C3_ExpressionFuncs = [
 		() => -10,
 		() => "Button_01",
 		() => "Button_02",
+		p => {
+			const n0 = p._GetNode(0);
+			return () => n0.ExpObject();
+		},
 		() => "hsx",
 		() => 1.1,
 		() => "hsy",
@@ -1454,6 +1458,7 @@ self.C3_ExpressionFuncs = [
 			return () => ((((1100 + 30) + n0.ExpObject()) + n1.ExpObject()) + 50);
 		},
 		() => "2",
+		() => "Explore",
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
