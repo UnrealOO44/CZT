@@ -17,7 +17,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Acts.SetText,
 		C3.Plugins.System.Acts.SetLayerOpacity,
 		C3.Plugins.Audio.Acts.Play,
-		C3.JavaScriptInEvents.Help_e_Event2,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Behaviors.Tween.Acts.TweenOneProperty,
@@ -43,6 +42,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Exps.TextHeight,
 		C3.Plugins.Sprite.Acts.SetY,
 		C3.Plugins.Sprite.Exps.Height,
+		C3.JavaScriptInEvents.Apartment_e_Event2,
 		C3.Plugins.Sprite.Cnds.CompareY,
 		C3.Plugins.Text.Cnds.CompareText,
 		C3.Plugins.System.Acts.SetLayerVisible
