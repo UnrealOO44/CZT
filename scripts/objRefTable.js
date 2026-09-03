@@ -31,6 +31,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.TriggerOnce,
 		C3.Plugins.Mouse.Cnds.IsButtonDown,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
+		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.System.Cnds.IsGroupActive,
 		C3.Behaviors.Pin.Acts.Unpin,
 		C3.Behaviors.Pin.Acts.PinByProperties,
