@@ -1407,6 +1407,7 @@ function or(l, r)
 }
 
 self.C3_ExpressionFuncs = [
+		() => 0.2,
 		() => 0,
 		() => 1,
 		() => 700,
@@ -1433,7 +1434,6 @@ self.C3_ExpressionFuncs = [
 		},
 		() => 0.8,
 		() => "u",
-		() => 0.2,
 		() => "down",
 		() => 1100,
 		() => "H",
