@@ -2,7 +2,7 @@
 
 const scriptsInEvents = {
 
-	async Help_e_Event4(runtime, localVars)
+	async Help_e_Event5(runtime, localVars)
 	{
 		const element = document.documentElement;
 		if (element.requestFullscreen) {
