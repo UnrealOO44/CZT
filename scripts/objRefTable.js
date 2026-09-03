@@ -25,6 +25,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.EveryTick,
 		C3.Plugins.Mouse.Cnds.OnAnyClick,
 		C3.Plugins.Touch.Cnds.OnTapGesture,
+		C3.Plugins.Browser.Acts.UnlockOrientation,
 		C3.Plugins.Browser.Acts.RequestFullScreen,
 		C3.Plugins.Sprite.Acts.SetOpacity,
 		C3.Plugins.Sprite.Cnds.CompareInstanceVar,
