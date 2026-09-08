@@ -1407,26 +1407,32 @@ function or(l, r)
 }
 
 self.C3_ExpressionFuncs = [
-		() => 0.2,
 		() => 0,
-		() => 1,
-		() => 700,
-		() => "It's a perfect day for a new adventure. But where should I travel next?",
+		() => "1",
+		() => "Menu",
 		() => "Notification",
 		() => 50,
-		() => "1",
-		() => "",
-		() => 100,
-		() => 0.5,
-		() => -100,
 		() => "Notification:",
+		() => "It's a perfect day for a new adventure. But where should I travel next?",
+		() => 700,
+		() => 1,
+		() => "btn_close",
+		() => 1.5,
+		() => 100,
+		() => "",
 		() => 2,
 		() => -10,
-		() => "Button_01",
-		() => "Button_02",
+		() => "btn_hint",
+		() => 0.5,
+		() => "btn_menu",
+		p => {
+			const n0 = p._GetNode(0);
+			return () => n0.ExpObject();
+		},
 		() => "hsx",
 		() => 1.1,
 		() => "hsy",
+		() => 3,
 		() => "up",
 		p => {
 			const n0 = p._GetNode(0);
@@ -1434,12 +1440,17 @@ self.C3_ExpressionFuncs = [
 		},
 		() => 0.8,
 		() => "u",
+		() => 0.2,
 		() => "down",
 		() => 1100,
-		() => "H",
 		() => "N",
 		() => "P",
+		() => "H",
 		() => "Hint:",
+		() => 1150,
+		() => 1180,
+		() => "Notification_Buttons",
+		() => "btn_noti_down",
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
@@ -1448,27 +1459,47 @@ self.C3_ExpressionFuncs = [
 		},
 		() => 180,
 		() => "None",
+		() => "btn_noti_close",
+		() => "Functions",
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
 			return () => ((((1100 + 30) + n0.ExpObject()) + n1.ExpObject()) + 50);
 		},
-		() => "2",
-		() => "Explore",
+		() => "Actions",
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
 			return () => (((870 - n0.ExpObject()) - n1.ExpObject()) - 50);
 		},
-		() => 1080,
-		() => "Home, sweet home.",
 		p => {
 			const n0 = p._GetNode(0);
 			return () => ((870 - n0.ExpObject()) - 50);
 		},
-		() => 1.5,
+		() => -100,
+		() => "2",
+		() => "Apartment",
+		() => "Explore",
+		() => "outside",
+		() => "Home, sweet home.",
+		() => "btn_11",
 		() => "Look around. Tap or click on anything that seems important. \n Perhaps start with the computer.",
-		() => "Transition"
+		() => "to_computer",
+		() => 15,
+		() => "Transition",
+		() => "Computer",
+		() => "Czechia is such a beautiful country with a rich history. \n I can learn everything I need to know to plan the perfect trip \n at VisitCzechia.com.",
+		() => "Go back",
+		() => "knock",
+		() => "Someone just knocked on the door. Who could it be?",
+		() => "Click on the door to open it.",
+		() => "Not much here.",
+		() => "to_door",
+		() => "Loading",
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => (f0() * 960);
+		}
 ];
 
 
