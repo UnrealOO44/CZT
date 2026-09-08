@@ -50,8 +50,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Mouse.Cnds.OnMovement,
 		C3.Plugins.System.Acts.SetLayerVisible,
 		C3.Plugins.Audio.Cnds.OnEnded,
+		C3.Plugins.System.Acts.LoadLayoutTextures,
 		C3.Plugins.Sprite.Acts.SetX,
-		C3.Plugins.System.Exps.loadingprogress
+		C3.Plugins.System.Exps.loadingprogress,
+		C3.Plugins.System.Cnds.OnLoadFinished
 	];
 };
 self.C3_JsPropNameTable = [
