@@ -81,7 +81,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Dictionary.Acts.SetKey,
 		C3.Plugins.Audio.Acts.FadeVolume,
 		C3.Plugins.Audio.Cnds.IsTagPlaying,
-		C3.Plugins.TextBox.Acts.SetCSSStyle,
 		C3.Plugins.Sprite.Acts.SetWidth,
 		C3.Plugins.TextBox.Acts.SetText,
 		C3.Behaviors.Fade.Acts.SetFadeInTime,
