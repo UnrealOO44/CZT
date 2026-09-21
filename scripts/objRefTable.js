@@ -105,7 +105,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Exps.AnimationFrame,
 		C3.Plugins.Sprite.Cnds.CompareFrame,
 		C3.Plugins.Text.Acts.SetFontSize,
-		C3.Plugins.Keyboard.Cnds.IsKeyDown,
+		C3.Plugins.Keyboard.Cnds.OnKey,
 		C3.Plugins.System.Cnds.Compare,
 		C3.Plugins.System.Exps.uppercase,
 		C3.Plugins.TextBox.Exps.Text,
