@@ -119,6 +119,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Browser.Acts.GoToURL,
 		C3.Plugins.System.Acts.GoToLayoutByName,
 		C3.Plugins.Mouse.Acts.SetCursor2,
+		C3.Plugins.Audio.Acts.StopAll,
 		C3.Plugins.Browser.Acts.Close,
 		C3.Plugins.Sprite.Exps.Opacity,
 		C3.Plugins.TextBox.Acts.SetVisible,
