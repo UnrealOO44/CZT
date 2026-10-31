@@ -75,6 +75,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Browser.Cnds.WindowHasFocus,
 		C3.Plugins.Sprite.Cnds.CompareFrameTag,
 		C3.Plugins.Browser.Acts.RequestFullScreen,
+		C3.Plugins.Browser.Acts.LockOrientation,
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.System.Acts.AddVar,
 		C3.Plugins.System.Acts.SetLayerVisible,
