@@ -2,6 +2,18 @@
 
 const scriptsInEvents = {
 
+	async Notification_ee_Event49(runtime, localVars)
+	{
+		window.addEventListener('blur', function() {
+		    runtime.callFunction("unfocused")
+		});
+	},
+
+	async Menu_ee_Event16(runtime, localVars)
+	{
+		window.open("https://www.visitczechia.com/","_blank");
+	},
+
 	async Javascripts_ee_Event2(runtime, localVars)
 	{
 		window.ga4.tutorialView()
@@ -52,14 +64,7 @@ const scriptsInEvents = {
 		window.ga4.puzzleAttempt(runtime.globalVars.Level_Progress, true)
 	},
 
-	async Notification_ee_Event49(runtime, localVars)
-	{
-		window.addEventListener('blur', function() {
-		    runtime.callFunction("unfocused")
-		});
-	},
-
-	async Menu_ee_Event16(runtime, localVars)
+	async Level_complete_e_Event3(runtime, localVars)
 	{
 		window.open("https://www.visitczechia.com/","_blank");
 	}

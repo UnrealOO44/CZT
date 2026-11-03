@@ -1816,7 +1816,6 @@ self.C3_ExpressionFuncs = [
 		() => "CB",
 		() => "resumecodeview",
 		() => "link",
-		() => "https://www.visitczechia.com/",
 		() => "outboundclick",
 		() => "btn_continue",
 		() => "btn_tohotel",

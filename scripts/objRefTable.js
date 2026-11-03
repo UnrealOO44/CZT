@@ -122,7 +122,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.Compare,
 		C3.Plugins.System.Exps.uppercase,
 		C3.Plugins.TextBox.Exps.Text,
-		C3.Plugins.Browser.Acts.GoToURL,
+		C3.JavaScriptInEvents.Level_complete_e_Event3,
 		C3.Plugins.System.Acts.GoToLayoutByName,
 		C3.Plugins.Mouse.Acts.SetCursor2,
 		C3.Plugins.Audio.Acts.StopAll,
