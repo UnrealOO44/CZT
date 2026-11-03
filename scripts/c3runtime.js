@@ -1587,11 +1587,11 @@ self.C3_ExpressionFuncs = [
 			return () => ((870 - n0.ExpObject()) - 50);
 		},
 		() => "OOF",
-		() => "Welcome back. Press the button below to continue your search for the Golem.",
+		() => "For the best gameplay experience, the game will automatically switch to full-screen mode.",
 		() => "spectral-499",
 		() => 700,
-		() => "For the best gameplay experience, the game will automatically switch to full-screen mode.",
 		() => "Fullscreen",
+		() => "Welcome back. Press the button below to continue your search for the Golem.",
 		() => "02",
 		() => "Apartment",
 		() => "It's a perfect day for a new adventure. But where should I travel next?",
@@ -2025,7 +2025,6 @@ self.C3_ExpressionFuncs = [
 			return () => n0.ExpObject("menu_btn_33");
 		},
 		() => "menuopen",
-		() => "NewWindow",
 		() => "show",
 		() => -600,
 		() => "levelstart"

@@ -50,6 +50,18 @@ const scriptsInEvents = {
 	async Javascripts_ee_Event20(runtime, localVars)
 	{
 		window.ga4.puzzleAttempt(runtime.globalVars.Level_Progress, true)
+	},
+
+	async Notification_ee_Event49(runtime, localVars)
+	{
+		window.addEventListener('blur', function() {
+		    runtime.callFunction("unfocused")
+		});
+	},
+
+	async Menu_ee_Event16(runtime, localVars)
+	{
+		window.open("https://www.visitczechia.com/","_blank");
 	}
 };
 
