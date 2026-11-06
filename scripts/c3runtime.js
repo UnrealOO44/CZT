@@ -1515,6 +1515,12 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => n0.ExpInstVar();
 		},
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			const f1 = p._GetNode(1).GetBoundMethod();
+			const n2 = p._GetNode(2);
+			return () => f0(f1(n2.ExpObject()));
+		},
 		() => "btn_11",
 		() => "btn_21",
 		() => "btn_22",
@@ -1773,11 +1779,6 @@ self.C3_ExpressionFuncs = [
 		() => "Wow! Charles Bridge. This ancient structure spans the width of the Vltava River. It is rumored \n that from up here you can see the site where Rabbi Loew took the mud and clay to create the \n Golem, but to see it, you must first find the saint with a halo of five stars. What was his\n full name again? I'm sure I came across it while reading the book in the hotel room.",
 		() => "Name the saint",
 		() => "He was the patron saint of bridges and silence.",
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			const n1 = p._GetNode(1);
-			return () => f0(n1.ExpObject());
-		},
 		() => "ST. JOHN OF NEPOMUK",
 		() => "ST NEPOMUK",
 		() => "NEPOMUK",
