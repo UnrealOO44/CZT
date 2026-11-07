@@ -92,6 +92,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Cnds.CompareX,
 		C3.Plugins.Mouse.Cnds.OnAnyClick,
 		C3.Plugins.Touch.Cnds.OnTapGesture,
+		C3.Plugins.Browser.Acts.RequestFullScreen,
 		C3.Plugins.Browser.Acts.LockOrientation,
 		C3.Plugins.Browser.Cnds.IsFullscreen,
 		C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet,
