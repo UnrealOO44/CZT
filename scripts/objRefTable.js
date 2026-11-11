@@ -129,6 +129,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Audio.Acts.StopAll,
 		C3.Plugins.System.Cnds.RegexTest,
 		C3.Plugins.Browser.Acts.Alert,
+		C3.JavaScriptInEvents.Game_over_e_Event10,
 		C3.Plugins.Browser.Acts.GoToURL,
 		C3.JavaScriptInEvents.Menu_ee_Event16,
 		C3.Plugins.Sprite.Exps.Opacity,

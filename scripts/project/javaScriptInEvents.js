@@ -12,6 +12,11 @@ const scriptsInEvents = {
 		window.open("https://www.visitczechia.com/","_blank");
 	},
 
+	async Game_over_e_Event10(runtime, localVars)
+	{
+		window.open("https://www.visitczechia.com/en-us/privacy-policy","_blank");
+	},
+
 	async Menu_ee_Event16(runtime, localVars)
 	{
 		window.open("https://www.visitczechia.com/","_blank");
